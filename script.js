@@ -57,18 +57,58 @@ function rgb() {
     assignColors();
 }
 // button-handelling
-function colorSelected() {
-    const colors = [color1, color2, color3, color4, color5, color6];
-    for(let i=1; i<=6; i++) {
-        if (colors[i-1].clicked == true) {
-            if (correctAnswer==i) {
-                winningScenario();
-            }
-            else {
-                colors[i-1].style.visibility = "hidden";
-                losingScenario();
-            }
-        }
+function colorChoice1() {
+    if(correctAnswer==1) {
+        winningScenario();
+    }
+    else {
+        color1.style.visibility = "hidden";
+        losingScenario();
+    }
+}
+function colorChoice2() {
+    if(correctAnswer==2) {
+        winningScenario();
+    }
+    else {
+        color2.style.visibility = "hidden";
+        losingScenario();
+    }
+}
+function colorChoice3() {
+    if(correctAnswer==3) {
+        winningScenario();
+    }
+    else {
+        color3.style.visibility = "hidden";
+        losingScenario();
+    }
+}
+function colorChoice4() {
+    if(correctAnswer==4) {
+        winningScenario();
+    }
+    else {
+        color4.style.visibility = "hidden";
+        losingScenario();
+    }
+}
+function colorChoice5() {
+    if(correctAnswer==5) {
+        winningScenario();
+    }
+    else {
+        color5.style.visibility = "hidden";
+        losingScenario();
+    }
+}
+function colorChoice6() {
+    if(correctAnswer==6) {
+        winningScenario();
+    }
+    else {
+        color6.style.visibility = "hidden";
+        losingScenario();
     }
 }
 function enableAllColouredButtons() {
