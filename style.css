@@ -57,8 +57,7 @@ body {
 #boxes{
     text-align: center;
 }
-#c1 {
-    background-color: rgb(16, 196, 16);
+#c1 , #c2, #c3, #c4, #c5, #c6{
     border-style: solid;
     border-color: black;
     border-width: 2px;
@@ -68,66 +67,24 @@ body {
     border-radius: 15px;
     height:120px;
     width:120px;
+}
+#c1{
+    background-color: rgb(16, 196, 16);
 }
 #c2 {
     background-color: rgba(11, 15, 226, 0.76);
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    padding: 50px;
-    margin-right:15px;
-    border-radius: 15px;
-    margin-top: 30px;
-    height: 120px;
-    width:120px;
 }
 #c3 {
     background-color: rgb(191, 128, 207);
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 15px;
-    padding: 50px;
-    margin-top: 30px;
-    height:120px;
-    width:120px;
 }
 #c4 {
     background-color: rgb(63, 16, 235);
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    padding: 50px;
-    margin-left:15px;
-    margin-right:15px;
-    margin-top: 30px;
-    border-radius: 15px;
-    height:120px;
-    width:120px;
 }
 #c5 {
     background-color: rgb(241, 160, 37);
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    padding: 50px;
-    margin-right:15px;
-    margin-top: 30px;
-    border-radius: 15px;
-    height:120px;
-    width:120px;
 }
 #c6 {
     background-color: rgb(245, 77, 189);
-    border-style: solid;
-    border-color: black;
-    border-width: 2px;
-    padding: 50px;
-    margin-right:15px;
-    margin-top: 30px;
-    border-radius: 15px;
-    height:120px;
-    width:120px;
 }
 #c1:hover, #c2:hover, #c3:hover, #c4:hover, #c5:hover, #c6:hover {
     filter: brightness(0.8);
