@@ -96,3 +96,90 @@ body {
     margin-top: 30px;
     border-radius: 15px;
 }
+@media screen and (max-width: 800px) {
+    .left,
+    .main,
+    .right {
+      width: 100%;
+    }
+    #yellow {
+      font-size: 1.2rem;
+    }
+    #rgb {
+      font-size: 3rem;
+    }
+    #newcolor {
+      margin-top: 6px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    #easy {
+      margin-right: 80px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    #hard,
+    #hard:hover {
+      padding-top: 2px;
+      padding-bottom: 2px;
+      margin-bottom: 6px;
+    }
+    #newcolor:hover {
+      margin-top: 6px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    #easy:hover {
+      margin-right: 80px;
+      padding-top: 2px;
+      padding-bottom: 2px;
+    }
+    #tryagain {
+      padding-top: 8px;
+      padding-bottom: 8px;
+      font-style: awesome;
+    }
+    #c1,
+    #c2,
+    #c3,
+    #c4,
+    #c5,
+    #c6 {
+      height: 10px;
+      width: 10px;
+      display: flex;
+      flex-direction: row-reverse;
+      flex: 33%;
+      padding: 40px;
+      margin-left: 15px;
+      margin-top: 50px;
+    }
+    #c1:hover,
+    #c2:hover,
+    #c3:hover,
+    #c4:hover,
+    #c5:hover,
+    #c6:hover {
+      height: 10px;
+      width: 10px;
+      display: flex;
+      flex-direction: row-reverse;
+      flex: 33%;
+      padding: 40px;
+      margin-left: 15px;
+      margin-top: 50px;
+      filter: brightness(0.8);
+    }
+    #boxes br {
+      display: none;
+    }
+    #white br{
+      display: block;
+    }
+    #boxes {
+      display: flex;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-gap: 5px;
+    }
+  }
